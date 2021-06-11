@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include"board.h"
 #include"game.h"
 
 void random_table(GameLife *gamelife){

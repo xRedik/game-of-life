@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include"board.h"
-#include"game.h"
+#include"../game/game.h"
 
 void new_game_life(GameLife *gamelife, int width, int height){
    gamelife->width = width;
