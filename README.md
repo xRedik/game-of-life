@@ -19,11 +19,11 @@ cmake -S . -B build/
 cd build
 make
 ```
-#### Step2
+#### Step3
 This program is just the life of game which has the extra feature which we can enter as argument if we want our game as circular or clipped, like
 ```
 ./gamelife 10 10 circular
 ```
 After that our game of life will be circular. Now let's see the our game of life style which screenshotted from terminal
 
-![image game of life](https://user-images.githubusercontent.com/56725845/121757204-d99f6180-cb2d-11eb-8558-18769fbf33aa.png)
+![Screenshot from 2021-06-12 03-29-44](https://user-images.githubusercontent.com/56725845/121757402-7661ff00-cb2e-11eb-9673-80b22abb1ede.png)
