@@ -7,7 +7,7 @@ doc:
 	doxygen
 
 dist:
-	tar -czvf gameoflife.tar.gz *.c *.h makefile
+	tar -czvf gameoflife.tar.gz *.c *.h makefile Doxyfile
 
 game.o: game.h game.c
 	gcc -c game.c
