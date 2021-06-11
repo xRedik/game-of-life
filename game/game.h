@@ -1,7 +1,7 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include"board.h"
+#include"../board/board.h"
 
 /**
  *  @brief randomly putting the value 1 or 0 to the elements of the board
