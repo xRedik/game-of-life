@@ -16,19 +16,7 @@ int main(int argc, char *argv[]){
   int width = atoi(argv[1]), heigth = atoi(argv[2]);
   
   new_game_life(&game,width,heigth);
-  //random_table(&game);
-  set_value(&game,1,2,1,"main_board");
-  set_value(&game,2,3,1,"main_board");
-  set_value(&game,3,3,1,"main_board");
-  set_value(&game,3,2,1,"main_board");
-  set_value(&game,3,1,1,"main_board");
-
-  set_value(&game,1,2,1,"temp_board");
-  set_value(&game,2,3,1,"temp_board");
-  set_value(&game,3,3,1,"temp_board");
-  set_value(&game,3,2,1,"temp_board");
-  set_value(&game,3,1,1,"temp_board");
-
+  random_table(&game);
   while(true){
     show_board(&game);
     update_game(&game);
