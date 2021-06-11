@@ -2,14 +2,16 @@
 #include<stdlib.h>
 #include<string.h>
 #include"board.h"
-#include"../game/game.h"
+#include"game.h"
 
-void new_game_life(GameLife *gamelife, int width, int height){
-   gamelife->width = width;
-   gamelife->height = height;
-   gamelife->main_board = (int *)malloc(gamelife->width * gamelife->height * sizeof(int));
-   gamelife->temp_board = (int *)malloc(gamelife->width * gamelife->height * sizeof(int));
+void new_game_life(GameLife *gamelife, int width, int height, char *type){
+  gamelife->width = width;
+  gamelife->height = height;
+  gamelife->main_board = (int *)malloc(gamelife->width * gamelife->height * sizeof(int));
+  gamelife->temp_board = (int *)malloc(gamelife->width * gamelife->height * sizeof(int));
 
+  gamelife->is_circular = !strcmp("circular",type);
+   
    for(int i=0;i< gamelife->height;i++){
       for(int j=0;j< gamelife->width;j++){
         set_value(gamelife,i,j,0,"main_board");

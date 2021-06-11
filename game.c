@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include"board.h"
 #include"game.h"
 
 void random_table(GameLife *gamelife){
   for (int i = 0; i < gamelife->height; i++)
     for (int j = 0; j < gamelife->width; j++)
       set_value(gamelife,i,j,rand() % 2,"main_board");
-
   for(int i=0;i<gamelife->height;i++)
     for(int j=0;j<gamelife->width;j++)
       set_value(gamelife,i,j,get_value(gamelife,i,j,"main_board"),"temp_board");
@@ -18,11 +18,26 @@ int count_alive_neighbors(GameLife *gamelife,int row, int column){
                              {row-1,column-1},{row+1,column+1},
                              {row-1,column+1},{row+1,column-1}};
   int c=0;
-  for(int i=0;i<8;i++)
-    if(arr_neighbors[i][0]>=0 && arr_neighbors[i][1]>=0 && 
-       arr_neighbors[i][0]<gamelife->height && arr_neighbors[i][1]<gamelife->width)
+  for(int i=0;i<8;i++){
+    if(!gamelife->is_circular){
+      if(arr_neighbors[i][0]>=0 && arr_neighbors[i][1]>=0 && 
+        arr_neighbors[i][0]<gamelife->height && arr_neighbors[i][1]<gamelife->width)
+        if(get_value(gamelife,arr_neighbors[i][0],arr_neighbors[i][1],"main_board"))
+          c++;
+    }
+    else{
+      if(arr_neighbors[i][0]<0)
+        arr_neighbors[i][0] = gamelife->height-1;
+      if(arr_neighbors[i][1]<0)
+        arr_neighbors[i][1] = gamelife->width-1;
+      if(arr_neighbors[i][0] == gamelife->height)
+        arr_neighbors[i][0] = 0;
+      if(arr_neighbors[i][1] == gamelife->width)
+        arr_neighbors[i][1] = 0;
       if(get_value(gamelife,arr_neighbors[i][0],arr_neighbors[i][1],"main_board"))
-        c++;
+          c++;
+    }
+  }
   return c;
 }
 
