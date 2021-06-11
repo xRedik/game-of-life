@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['update_5fgame_21',['update_game',['../game_8c.html#a34c419c759b2e8ec1603d91fe590d599',1,'update_game(GameLife *gamelife):&#160;game.c'],['../game_8h.html#a34c419c759b2e8ec1603d91fe590d599',1,'update_game(GameLife *gamelife):&#160;game.c']]]
+  ['temp_5fboard_21',['temp_board',['../structGameLife.html#a14c416f9f0ac02cfe22ad508424534c6',1,'GameLife']]]
 ];

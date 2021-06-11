@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['get_5fvalue_34',['get_value',['../board_8c.html#a64210465b19160c8c4763c41ec6df154',1,'get_value(GameLife *gamelife, int row, int column):&#160;board.c'],['../board_8h.html#a64210465b19160c8c4763c41ec6df154',1,'get_value(GameLife *gamelife, int row, int column):&#160;board.c']]]
+  ['get_5fvalue_35',['get_value',['../board_8c.html#a9aa91609911fd350b613abf5d05f24ae',1,'get_value(GameLife *gamelife, int row, int column, char *type):&#160;board.c'],['../board_8h.html#a9aa91609911fd350b613abf5d05f24ae',1,'get_value(GameLife *gamelife, int row, int column, char *type):&#160;board.c']]]
 ];

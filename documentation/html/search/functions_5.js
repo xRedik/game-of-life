@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['set_5fvalue_38',['set_value',['../board_8c.html#abbaf42cc7bb039eb691ca78f27e6325b',1,'set_value(GameLife *gamelife, int row, int column, int value):&#160;board.c'],['../board_8h.html#abbaf42cc7bb039eb691ca78f27e6325b',1,'set_value(GameLife *gamelife, int row, int column, int value):&#160;board.c']]],
-  ['show_5fboard_39',['show_board',['../board_8c.html#a07013d0266642afc24e27c0fd623c449',1,'show_board(GameLife *gamelife):&#160;board.c'],['../board_8h.html#a07013d0266642afc24e27c0fd623c449',1,'show_board(GameLife *gamelife):&#160;board.c']]]
+  ['set_5fvalue_39',['set_value',['../board_8c.html#afdf9a56f822125b81bf94dd6b23f1558',1,'set_value(GameLife *gamelife, int row, int column, int value, char *type):&#160;board.c'],['../board_8h.html#afdf9a56f822125b81bf94dd6b23f1558',1,'set_value(GameLife *gamelife, int row, int column, int value, char *type):&#160;board.c']]],
+  ['show_5fboard_40',['show_board',['../board_8c.html#a07013d0266642afc24e27c0fd623c449',1,'show_board(GameLife *gamelife):&#160;board.c'],['../board_8h.html#a07013d0266642afc24e27c0fd623c449',1,'show_board(GameLife *gamelife):&#160;board.c']]]
 ];

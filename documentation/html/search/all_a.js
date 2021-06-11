@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['yellow_24',['YELLOW',['../board_8h.html#abf681265909adf3d3e8116c93c0ba179',1,'board.h']]]
+  ['white_23',['WHITE',['../board_8h.html#a87b537f5fa5c109d3c05c13d6b18f382',1,'board.h']]],
+  ['width_24',['width',['../structGameLife.html#af745976d842cf492eb64d28631341546',1,'GameLife']]]
 ];

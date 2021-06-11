@@ -13,8 +13,8 @@ typedef struct{
 
   int width; /**< width of the board*/ 
   int height; /**< height of the board */ 
-  int *board; /**< pointer to the board which we will allocate dynamically*/ 
-
+  int *main_board; /**< pointer to the board which we will allocate dynamically*/ 
+  int *temp_board; /**< pointer to the temporary board which we will allocate dynamically too*/ 
 }  GameLife;
 
 
@@ -24,10 +24,11 @@ typedef struct{
  *  @param gamelife: the pointer to the struct game
  *  @param row: the row of the element which we want to get
  *  @param column: the column of the element which we want to get
+ *  @param type: the board which we want to get the value (main_board or temp_board)
  *
  *  @return return the value of the that element 
  */
-int get_value(GameLife *gamelife, int row, int column);
+int get_value(GameLife *gamelife, int row, int column, char *type);
 
 /**
  *  @brief setting the value of the one proper element of the game board with some value
@@ -36,12 +37,14 @@ int get_value(GameLife *gamelife, int row, int column);
  *  @param row: the row of the element which we want to set
  *  @param column: the column of the element which we want to set
  *  @param value: the new value which we want to set to that element
+ *  @param type: the board which we want to get value (main_board or temp_board)
+ * 
  *  @return nothing returns (void function)
  */
-void set_value(GameLife *gamelife, int row, int column, int value);
+void set_value(GameLife *gamelife, int row, int column, int value, char *type);
 
 /**
- *  @brief create the new game for game of life and initializing all values of board to 0
+ *  @brief create the new game for game of life and initializing all values of main board and temp boardto 0
  *
  *  @param gamelife: the pointer to the struct game
  *  @param width: the width of the game board which we want to create
@@ -52,7 +55,7 @@ void set_value(GameLife *gamelife, int row, int column, int value);
 void new_game_life(GameLife *gamelife, int width, int height);
 
 /**
- *  @brief showing the board of the game in terminal
+ *  @brief showing the main board of the game in terminal
  *
  *  @param gamelife: the pointer to the struct game
  *

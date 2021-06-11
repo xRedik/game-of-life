@@ -94,17 +94,17 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a64210465b19160c8c4763c41ec6df154"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board_8h.html#a64210465b19160c8c4763c41ec6df154">get_value</a> (<a class="el" href="structGameLife.html">GameLife</a> *gamelife, int row, int column)</td></tr>
-<tr class="memdesc:a64210465b19160c8c4763c41ec6df154"><td class="mdescLeft">&#160;</td><td class="mdescRight">getting the value of the one proper element of the game board  <a href="board_8h.html#a64210465b19160c8c4763c41ec6df154">More...</a><br /></td></tr>
-<tr class="separator:a64210465b19160c8c4763c41ec6df154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbaf42cc7bb039eb691ca78f27e6325b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board_8h.html#abbaf42cc7bb039eb691ca78f27e6325b">set_value</a> (<a class="el" href="structGameLife.html">GameLife</a> *gamelife, int row, int column, int value)</td></tr>
-<tr class="memdesc:abbaf42cc7bb039eb691ca78f27e6325b"><td class="mdescLeft">&#160;</td><td class="mdescRight">setting the value of the one proper element of the game board with some value  <a href="board_8h.html#abbaf42cc7bb039eb691ca78f27e6325b">More...</a><br /></td></tr>
-<tr class="separator:abbaf42cc7bb039eb691ca78f27e6325b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aa91609911fd350b613abf5d05f24ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board_8h.html#a9aa91609911fd350b613abf5d05f24ae">get_value</a> (<a class="el" href="structGameLife.html">GameLife</a> *gamelife, int row, int column, char *type)</td></tr>
+<tr class="memdesc:a9aa91609911fd350b613abf5d05f24ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">getting the value of the one proper element of the game board  <a href="board_8h.html#a9aa91609911fd350b613abf5d05f24ae">More...</a><br /></td></tr>
+<tr class="separator:a9aa91609911fd350b613abf5d05f24ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf9a56f822125b81bf94dd6b23f1558"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board_8h.html#afdf9a56f822125b81bf94dd6b23f1558">set_value</a> (<a class="el" href="structGameLife.html">GameLife</a> *gamelife, int row, int column, int value, char *type)</td></tr>
+<tr class="memdesc:afdf9a56f822125b81bf94dd6b23f1558"><td class="mdescLeft">&#160;</td><td class="mdescRight">setting the value of the one proper element of the game board with some value  <a href="board_8h.html#afdf9a56f822125b81bf94dd6b23f1558">More...</a><br /></td></tr>
+<tr class="separator:afdf9a56f822125b81bf94dd6b23f1558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53e28418a0d640e3bcc96bf39c4ceba7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board_8h.html#a53e28418a0d640e3bcc96bf39c4ceba7">new_game_life</a> (<a class="el" href="structGameLife.html">GameLife</a> *gamelife, int width, int height)</td></tr>
-<tr class="memdesc:a53e28418a0d640e3bcc96bf39c4ceba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the new game for game of life and initializing all values of board to 0  <a href="board_8h.html#a53e28418a0d640e3bcc96bf39c4ceba7">More...</a><br /></td></tr>
+<tr class="memdesc:a53e28418a0d640e3bcc96bf39c4ceba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the new game for game of life and initializing all values of main board and temp boardto 0  <a href="board_8h.html#a53e28418a0d640e3bcc96bf39c4ceba7">More...</a><br /></td></tr>
 <tr class="separator:a53e28418a0d640e3bcc96bf39c4ceba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07013d0266642afc24e27c0fd623c449"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board_8h.html#a07013d0266642afc24e27c0fd623c449">show_board</a> (<a class="el" href="structGameLife.html">GameLife</a> *gamelife)</td></tr>
-<tr class="memdesc:a07013d0266642afc24e27c0fd623c449"><td class="mdescLeft">&#160;</td><td class="mdescRight">showing the board of the game in terminal  <a href="board_8h.html#a07013d0266642afc24e27c0fd623c449">More...</a><br /></td></tr>
+<tr class="memdesc:a07013d0266642afc24e27c0fd623c449"><td class="mdescLeft">&#160;</td><td class="mdescRight">showing the main board of the game in terminal  <a href="board_8h.html#a07013d0266642afc24e27c0fd623c449">More...</a><br /></td></tr>
 <tr class="separator:a07013d0266642afc24e27c0fd623c449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -179,8 +179,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a64210465b19160c8c4763c41ec6df154"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64210465b19160c8c4763c41ec6df154">&#9670;&nbsp;</a></span>get_value()</h2>
+<a id="a9aa91609911fd350b613abf5d05f24ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aa91609911fd350b613abf5d05f24ae">&#9670;&nbsp;</a></span>get_value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +201,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>column</em>&#160;</td>
+          <td class="paramname"><em>column</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -216,7 +222,8 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">gamelife</td><td>the pointer to the struct game </td></tr>
     <tr><td class="paramname">row</td><td>the row of the element which we want to get </td></tr>
-    <tr><td class="paramname">column</td><td>the column of the element which we want to get</td></tr>
+    <tr><td class="paramname">column</td><td>the column of the element which we want to get </td></tr>
+    <tr><td class="paramname">type</td><td>the board which we want to get the value (main_board or temp_board)</td></tr>
   </table>
   </dd>
 </dl>
@@ -256,7 +263,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>create the new game for game of life and initializing all values of board to 0 </p>
+<p>create the new game for game of life and initializing all values of main board and temp boardto 0 </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gamelife</td><td>the pointer to the struct game </td></tr>
@@ -269,8 +276,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abbaf42cc7bb039eb691ca78f27e6325b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbaf42cc7bb039eb691ca78f27e6325b">&#9670;&nbsp;</a></span>set_value()</h2>
+<a id="afdf9a56f822125b81bf94dd6b23f1558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdf9a56f822125b81bf94dd6b23f1558">&#9670;&nbsp;</a></span>set_value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -297,7 +304,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -314,6 +327,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">row</td><td>the row of the element which we want to set </td></tr>
     <tr><td class="paramname">column</td><td>the column of the element which we want to set </td></tr>
     <tr><td class="paramname">value</td><td>the new value which we want to set to that element </td></tr>
+    <tr><td class="paramname">type</td><td>the board which we want to get value (main_board or temp_board)</td></tr>
   </table>
   </dd>
 </dl>
@@ -337,7 +351,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>showing the board of the game in terminal </p>
+<p>showing the main board of the game in terminal </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">gamelife</td><td>the pointer to the struct game</td></tr>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['board_41',['board',['../structGameLife.html#a11cd41c82d253846fd633da5ebe75d8f',1,'GameLife']]]
+  ['height_42',['height',['../structGameLife.html#aa75d130c9fe4fc08103938827106ec83',1,'GameLife']]]
 ];
