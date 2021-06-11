@@ -1,7 +1,7 @@
 # Game of Life
 
 ### Summary
-This is the implementaion of Conway's Game of Life with using C programming language by Farid Guliyev and Emil Guluzade. The are 3 main tag in this repository. And step2 and step3 was committed with using the branches, you can see the history clearly as you want. Also the functions and variables of the main struct was documented with using doxygen. Now let's give the detailed informations about the steps.
+This is the implementaion of Conway's Game of Life with using C programming language by Farid Guliyev and Emil Guluzade. The are 3 main tag in this repository. Step2 and step3 was committed with using the branches, you can see the history clearly as you want. Also the functions and variables of the main struct was documented with using doxygen. The output also was printed with using ansii colors. Now let's give the detailed informations about the steps.
 
 ### How We Developed This Project
 #### Step1
