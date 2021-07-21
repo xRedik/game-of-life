@@ -3,7 +3,7 @@
 ### Summary
 The are 3 main tag in this repository. Step2 and step3 was committed with using the branches, you can see the history clearly as you want. Also the functions and variables of the main struct was documented with using doxygen. The output also was printed with using ansii colors. Now let's give the detailed informations about the steps.
 
-### How We Developed This Project
+### How I Developed This Project
 #### Step1
 The first tag is step1 which consists of game itself with clipped version and makefile. With using makefile we can run, clear, dict, and doc the files. For compiling the game you should only write make command. Then for running the program you should execute the program with arguments width and height, like
 ```
